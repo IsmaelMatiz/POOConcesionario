@@ -15,7 +15,7 @@ public class Compras {
     public int GetidCompra(){
         return this.idCompra;
     }
-    public void setidCompra(String idcompra){
+    public void setidCompra(int idcompra){
         this.idCompra = idCompra;
 
     }
