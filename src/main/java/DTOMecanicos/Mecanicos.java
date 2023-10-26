@@ -8,7 +8,7 @@ public class Mecanicos {
     private String nombre;
     private String apellidos;
     private LocalDate fechadecontratacion;
-    private Float salario;
+    private double salario;
 
 
     public String Getcedula(){
@@ -43,11 +43,11 @@ public class Mecanicos {
         this.fechadecontratacion = fechadecontratacion;
     }
 
-    public Float Getsalario(){
+    public double Getsalario(){
         return this.salario;
     }
 
-    public void Setsalario(Float salario){
+    public void Setsalario(double salario){
         this.salario = salario;
     }
 

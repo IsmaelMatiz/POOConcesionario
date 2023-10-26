@@ -1,24 +1,24 @@
 package DTOcompras;
 
+import DTOClientes.Clientes;
+
 import java.time.LocalDate;
-
-
 
 public class Compras {
     private int idCompra;
     private LocalDate fechaCompra;
-    private String cliente;
+    private Clientes cliente;
     private String autos;
     private double total;
 
-
-    public int GetidCompra(){
+    public int getIdCompra() {
         return this.idCompra;
     }
-    public void setidCompra(int idcompra){
-        this.idCompra = idCompra;
 
+    public void setIdCompra(int idCompra) {
+        this.idCompra = idCompra;
     }
+
     public LocalDate getFechaCompra() {
         return fechaCompra;
     }
@@ -27,11 +27,11 @@ public class Compras {
         this.fechaCompra = fechaCompra;
     }
 
-    public String getCliente() {
+    public Clientes getCliente() {
         return cliente;
     }
 
-    public void setCliente(String cliente) {
+    public void setCliente(Clientes cliente) {
         this.cliente = cliente;
     }
 
@@ -51,3 +51,4 @@ public class Compras {
         this.total = total;
     }
 }
+
